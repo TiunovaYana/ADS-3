@@ -25,4 +25,5 @@ int cbinsearch(int *arr, int size, int value) {
         if (arr[l] == value)
             n++;
     }
+    return n;
 }
