@@ -21,9 +21,10 @@ int cbinsearch(int *arr, int size, int value) {
             if (arr[m] == value)
                 n++;
         }
-    for (int l = size - 1; l > mid1; l--) {
-        if (arr[l] == value)
-            n++;
+        for (int l = size - 1; l > mid1; l--) {
+            if (arr[l] == value)
+                n++;
+        }
     }
     return n;
 }
